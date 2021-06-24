@@ -1,0 +1,39 @@
+body {
+    background-image: url( MEMANQUE ); /* a confirme 
+    text-align: center;
+    background-size: cover;
+    background-position: 25%; 25%;
+}
+
+#bloc.principal {
+
+    display: inline-block;
+    margin: 0 auto;
+    width: 85%;
+    height: 100px;
+
+    position: absolute;
+    top: 25%; left: 50%;
+    transform: translate(50%, 50%);
+    
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.bloc-letter{
+
+    width: 80px;
+    height: 100px;
+    border: solid 1px royalblue;
+    background:linear-gradient(royalblue);
+    flex-direction: column;
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    color: goldenrod;
+    font-family: ______;  /* a confirme 
+}
+.bloc-letter:hover {
+    border: solid 4px 

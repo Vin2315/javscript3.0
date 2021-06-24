@@ -1,0 +1,45 @@
+Ejercicio 2
+
+
+{
+front-size: 20px; 
+front-weight; 200; 
+}
+
+
+
+body{
+margin: 0%;
+}
+
+*, *::before, ::after {
+}
+
+.site.wap{
+    max-width: 700px;
+    margin: 70px auto; 
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgb(0,0,0.0%);
+²   transform: scale: 0, 98;
+    transition: transforms 0.5s;
+}
+
+header{
+    text-align: center;
+    height: 50vh;
+    background: url();  // FALTA HACER 
+    background-size: cover;
+    display:flex;
+    align-items; center;
+}
+h1{
+    color: white;
+    font-size: 7vw;
+    text-shadow: 4px, 0, rgb(0,0,0.2);
+}
+
+body :-moz-first-nave {
+    position: fixed;
+    box-shadow: 0.5px, 0 rgb(0,0,0,1);
+}
