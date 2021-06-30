@@ -43,6 +43,7 @@ body {
   cursor: grabbing;
   cursor: -webkit-grabbing;
   transform: scale(1);
+  
 }
 
 .item {

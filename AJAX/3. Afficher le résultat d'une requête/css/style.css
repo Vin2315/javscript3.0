@@ -1,0 +1,60 @@
+* {
+  
+    text-decoration: none;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  /* centra a la barra */
+    height: 100vh; /* altura barra */
+    background-color: #131416; /* borde rredonde de barra*/
+  }
+  
+  nav {
+    background-color: White;
+    padding: 0 20px;
+    border-radius: 40px;
+    box-shadow: 0 10px 40px (159, 162, 177, .8);
+    display: flex;
+    overflow: hidden;
+    overflow-x: auto; /* aparesca 1 barra bajo menu, no desapa. letrqs */
+    background-position: top;
+  }
+  
+  .nav-item {
+    color: #83818c;
+    font-family: arial, sans-serif;
+    padding: 20px;
+    margin: 0 6px;
+    position: relative;
+    
+  }
+  
+  .nav-item:before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    background-color: red; /* color traspa  bajo la opcion del menu #dfe2ea;*/
+    height: 5px;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    left: 0;
+    transition: .3s;
+  }
+  
+  .nav-item:not(.is-active):hover:before {
+    bottom: 0;
+  }
+  .nav-item:not(.is-active):hover {
+    color: #333;  /* para que se note el senalar las letras sea clara  */
+  }
+  
+  .nav-indicator {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    transition: .4s;
+    border-radius: 8px 8px 0 0;
+  }
