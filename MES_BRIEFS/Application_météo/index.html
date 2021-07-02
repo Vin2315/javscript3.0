@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Récupérer une clé API en s'inscrivant sur la plateforme</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    
+
+</head>
+<body>
+    
+    <div class="navigation">
+            <nav class="navbar">
+            <div class="navbar__left">
+                <a href="/" class="navbar__logo-link"><img class="navbar__logo" src="https://picsum.photos/60/60" alt="Ma Meteo" width=60px height=60px></a>
+                <span>Votre Température</span>
+            </div>
+                <div id="navi-menu" class="navbar__menu">
+                    <ul class="navbar__links">
+                    <li class="current-page">Accueil</a></li>
+                    <li class="navbar__link transitionToPage">Votre météo</a></li>
+                    <li class="navbar__link transitionToPage">Chercher la ville</a></li>
+                    <li class="navbar__link transitionToPage">Savoir plus</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            
+
+
+      </div><br><br><br><br>
+
+      <p> Votre température de notre ville est ......? </p>
+      <p id="date"></p>
+      <input type="button" value="Consulte votre temperatur" onclick="temp()">
+
+     
+      <canvas id="graf" width="300" height="300"> </canvas>
+      
+      <script src="js/app.js"></script>
+  
+    
+</body>
+</html>
